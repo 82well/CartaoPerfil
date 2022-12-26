@@ -19,3 +19,13 @@ body {
 .darkMode {
     background: #222;
 }
+
+.box {
+    position: relative;
+    padding: 30px;
+    width: 300px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+}
