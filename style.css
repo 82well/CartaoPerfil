@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+    @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 * {
     margin: 0;
     padding: 0;
@@ -57,3 +57,8 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.profile .text {
+    font-weight: 500;
+    color: #333;
+    line-height: 1.2em;
