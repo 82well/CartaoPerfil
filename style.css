@@ -5,3 +5,17 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fafafa;
+    background: #f0f0f0;
+    transition: 0.5s;
+}
+
+.darkMode {
+    background: #222;
+}
