@@ -137,3 +137,20 @@
     .darkMode .menu li label .action i {
         background: #666;
     }
+    
+    .menu li label .action i::before {
+        content: "";
+        position: absolute;
+        top: 2.5px;
+        left: 2.5px;
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+    }
+    
+    .menu li label .action input:checked~i::before {
+        left: calc(100% - 12.5px);
+    }
