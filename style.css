@@ -88,3 +88,52 @@
     .darkMode .menu {
         border-top: 1px solid rgba(255, 255, 255, 0.05);
     }
+    
+    .menu li {
+        list-style: none;
+        margin: 8px 0;
+    }
+    
+    .menu li label {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu li label span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        cursor: pointer;
+        color: #777;
+    }
+    
+    .darkMode .menu li label span {
+        color: #aaa;
+    }
+    
+    .menu li label span ion-icon {
+        margin-right: 10px;
+    }
+    
+    .menu li label .action {
+        position: relative;
+    }
+    
+    .menu li label .action input {
+        appearance: none;
+    }
+    
+    .menu li label .action i {
+        position: relative;
+        width: 30px;
+        height: 15px;
+        border-radius: 15px;
+        background: #ddd;
+        transition: 0.5s;
+    }
+    
+    .darkMode .menu li label .action i {
+        background: #666;
+    }
