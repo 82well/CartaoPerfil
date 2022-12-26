@@ -16,94 +16,90 @@
                 <img src="https://i.pinimg.com/564x/87/a0/d1/87a0d14e6aca69afd9eacaf3e035ac4c.jpg">
             </div>
             <h4 class="text">Wellington Rodrigues<br><span>Programador em Desenvolvimento</span></h4>
-            <ul class="menu">
-                <li>
-                    <label for="">
-                        <span class="title">
-                            <ion-icon name="heart-circle-outline"></ion-icon>Amigo
-                        </span>
-                        <span class="action">
-                            <input type="checkbox">
-                            <i></i>
-                          </span>
-                    </label>
-                </li>
-
-                <li>
-                    <label>
-                        <span class="title">
-                          <ion-icon name="wifi"></ion-icon> Wi-Fi
-                        </span>
-                        <span class="action">
-                          <input type="checkbox">
-                          <i></i>
-                        </span>
-                      </label>
-                </li>
-
-                <li>
-                    <label>
-                      <span class="title">
-                        <ion-icon name="bluetooth"></ion-icon> Bluetooth
-                      </span>
-                      <span class="action">
-                        <input type="checkbox">
-                        <i></i>
-                      </span>
-                    </label>
-                </li>
-
-                <li>
-                    <label>
-                      <span class="title">
-                        <ion-icon name="airplane"></ion-icon> Airplane Mode
-                      </span>
-                      <span class="action">
-                        <input type="checkbox">
-                        <i></i>
-                      </span>
-                    </label>
-                </li>
-
-                <li>
-                    <label>
-                      <span class="title">
-                        <ion-icon name="location"></ion-icon> Location
-                      </span>
-                      <span class="action">
-                        <input type="checkbox">
-                        <i></i>
-                      </span>
-                    </label>
-                </li>
-
-                <li>
-                    <label>
-                      <span class="title">
-                        <ion-icon name="moon"></ion-icon> Dark Mode
-                      </span>
-                      <span class="action">
-                        <input type="checkbox" id="dark">
-                        <i></i>
-                      </span>
-                    </label>
-                </li>
-            </ul>
         </div>
+        <ul class="menu">
+            <li>
+                <label>
+            <span class="title">
+              <ion-icon name="heart-circle-outline"></ion-icon> Amigo
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+            </li>
+            <li>
+                <label>
+            <span class="title">
+              <ion-icon name="wifi"></ion-icon> Wi-Fi
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+            </li>
+            <li>
+                <label>
+            <span class="title">
+              <ion-icon name="bluetooth"></ion-icon> Bluetooth
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+            </li>
+            <li>
+                <label>
+            <span class="title">
+              <ion-icon name="airplane"></ion-icon> Airplane Mode
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+            </li>
+            <li>
+                <label>
+            <span class="title">
+              <ion-icon name="location"></ion-icon> Location
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+            </li>
+            <li>
+                <label>
+            <span class="title">
+              <ion-icon name="moon"></ion-icon> Dark Mode
+            </span>
+            <span class="action">
+              <input type="checkbox" id="dark">
+              <i></i>
+            </span>
+          </label>
+            </li>
+        </ul>
+    </div>
 
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script>
-            let body = document.querySelector('body');
-            let dark = document.querySelector('#dark');
-            dark.onclick = function() {
-                if (dark.checked == true) {
-                    body.classList.add('darkMode');
-                } else {
-                    body.classList.remove('darkMode');
-                }
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let body = document.querySelector('body');
+        let dark = document.querySelector('#dark');
+        dark.onclick = function() {
+            if (dark.checked == true) {
+                body.classList.add('darkMode');
+            } else {
+                body.classList.remove('darkMode');
             }
-        </script>
+        }
+    </script>
 </body>
 
 </html>
