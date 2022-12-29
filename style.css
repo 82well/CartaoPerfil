@@ -113,7 +113,7 @@ body {
     color: #aaa;
 }
 
-3 .menu li label span ion-icon {
+.menu li label span ion-icon {
     margin-right: 10px;
 }
 
