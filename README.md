@@ -41,7 +41,7 @@
 ## Javascript
 
 <p align="justify">
-Usando javascript para criar variaveis de validação, criando assim a validação do password.
+Usando javascript para criar variaveis de alteração para a cor do body, criando assim o modo dark.
 
 ## Label
 
